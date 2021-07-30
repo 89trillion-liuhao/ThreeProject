@@ -34,16 +34,16 @@ Project视图
 >>>> OSA.cs……
 ## 层级视图
 MainScene  
-> RootCanvas
->> TopPanel
->>> TopImage
->>> TopBanner
->>> TopText
->> CenterCanvas
->>> Scroll View
->> BottomPanel
->>> BottomImage 
->>> BottomBtn
+> RootCanvas  
+>> TopPanel  
+>>> TopImage  
+>>> TopBanner  
+>>> TopText  
+>> CenterCanvas  
+>>> Scroll View  
+>> BottomPanel 
+>>> BottomImage   
+>>> BottomBtn  
 
 ## 流程图
 ![Image text](https://github.com/89trillion-liuhao/myTest/blob/main/1.png)
