@@ -58,7 +58,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Script\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Scripts\BasicListAdapter.cs" />
+     <Compile Include="Assets\Scripts\MainController.cs" />
+     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Scripts\SimpleJSON.cs" />
+     <Compile Include="Assets\Scripts\ToastController.cs" />
+     <None Include="Assets\Script\OSA\Resources\OSA\Templates\ScriptsChunks\HeaderComment.txt" />
+     <None Include="Assets\Script\OSA\Resources\OSA\Templates\Scripts\BasicListAdapter.txt" />
+     <None Include="Assets\Script\OSA\Resources\OSA\Templates\Scripts\BasicGridAdapter.txt" />
+     <None Include="Assets\Script\OSA\Docs\Manual link.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/liuhao/ThreeProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
@@ -671,6 +679,16 @@
  <Reference Include="mscorlib">
  <HintPath>/Applications/Unity/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="OSA-Editor.csproj">
+      <Project>{3EEAA4B1-1611-D2ED-E6AF-4EFD3E013882}</Project>
+      <Name>OSA-Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="OSA.csproj">
+      <Project>{FF4B6D58-1715-63DE-9262-E07B7071C4B0}</Project>
+      <Name>OSA</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
