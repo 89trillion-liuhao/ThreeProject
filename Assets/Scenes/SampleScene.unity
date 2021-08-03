@@ -2401,7 +2401,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 546, y: 111.99}
+  m_AnchoredPosition: {x: 546, y: 111.990234}
   m_SizeDelta: {x: 1086, y: 223.98499}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1323472176
@@ -2622,7 +2622,7 @@ Canvas:
   m_GameObject: {fileID: 1480911634}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -3357,8 +3357,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62dfc8bb1c59f4892b38a7678ad2c1f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  daojishi: {fileID: 0}
-  TotalTime: 1
 --- !u!1 &2005165674
 GameObject:
   m_ObjectHideFlags: 0
