@@ -60,6 +60,8 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\BasicListAdapter.cs" />
      <Compile Include="Assets\Scripts\MainController.cs" />
+     <Compile Include="Assets\Scripts\MyListItemModel.cs" />
+     <Compile Include="Assets\Scripts\MyListItemViewsHolder.cs" />
      <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
      <Compile Include="Assets\Scripts\SimpleJSON.cs" />
      <Compile Include="Assets\Scripts\ToastController.cs" />
