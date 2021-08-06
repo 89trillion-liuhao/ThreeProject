@@ -4,7 +4,9 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Lists;
-
+/**
+ * 打开排行榜的按钮点击事件
+ */
 public class MainController : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -23,11 +25,8 @@ public class MainController : MonoBehaviour
     public void openOrCloseRank()
     {
         
-        GameObject buttonSelf = EventSystem.current.currentSelectedGameObject;
+        GameObject buttonSelf = EventSystem.current.currentSelectedGameObject;//获取当前点击按钮事件
         Text openValue = buttonSelf.transform.Find("Text").GetComponent<Text>();
-        
-        
-        
         GameObject rank = GameObject.Find("RankCanvas").transform.Find("OSA").gameObject;
         if (rank.activeSelf)
         {

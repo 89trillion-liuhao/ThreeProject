@@ -37,7 +37,7 @@ using Com.TheFallenGames.OSA.DataHelpers;
 using DefaultNamespace;
 using SimpleJSON;
 
-// You should modify the namespace to your own or - if you're sure there won't ever be conflicts - remove it altogether
+// 生成滑动列表框的主要方法
 namespace Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Lists
 {
 	
@@ -48,7 +48,7 @@ namespace Your.Namespace.Here.UniqueStringHereToAvoidNamespaceConflicts.Lists
 		public int hour = 23;
 		public int minutes = 59;
 		public GameObject daojishi;
-		
+		//用来读取json文件的字段
 		public TextAsset simple;
 		#region OSA implementation
 		protected override void Awake()

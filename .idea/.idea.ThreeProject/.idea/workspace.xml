@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5c82ffb-9857-4c5a-8ac5-e8ac4043a7a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MyListItemModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MyListItemModel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MyListItemViewsHolder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MyListItemViewsHolder.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ThreeProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ThreeProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+    <list default="true" id="e5c82ffb-9857-4c5a-8ac5-e8ac4043a7a0" name="Default Changelist" comment="修改代码结构">
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BasicListAdapter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BasicListAdapter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SpriteAtlasDatabase.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SpriteAtlasDatabase.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/e14d86-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/e14d86-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,11 +23,11 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Timer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/NewBehaviourScript.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ToastController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/MainController.cs" />
       <option value="$PROJECT_DIR$/Assets/Resources/ranklist.json" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MyListItemModel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MyListItemViewsHolder.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BasicListAdapter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MainController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1w1fCu1Ky6osBsfjynQSqa7H7Zs" />
@@ -96,7 +84,7 @@
       <workItem from="1627867772375" duration="21407000" />
       <workItem from="1627989988561" duration="631000" />
       <workItem from="1628126774137" duration="1836000" />
-      <workItem from="1628232358491" duration="1556000" />
+      <workItem from="1628232358491" duration="1883000" />
     </task>
     <task id="LOCAL-00001" summary="完成代码">
       <created>1627891683875</created>
@@ -133,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627990656435</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="修改代码结构">
+      <created>1628233927266</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1628233927266</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,37 +156,12 @@
     <MESSAGE value="111" />
     <MESSAGE value="1" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="修改代码结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改代码结构" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/MainController.cs</url>
-          <line>37</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/MainController.cs" initialLine="27" containingFunctionPresentation="method 'openOrCloseRank'">
-            <startOffsets>
-              <option value="900" />
-            </startOffsets>
-            <endOffsets>
-              <option value="901" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/MainController.cs</url>
-          <line>33</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/MainController.cs" initialLine="24" containingFunctionPresentation="method 'openOrCloseRank'">
-            <startOffsets>
-              <option value="808" />
-            </startOffsets>
-            <endOffsets>
-              <option value="830" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/ToastController.cs</url>
           <line>28</line>
@@ -217,19 +187,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/MainController.cs</url>
-          <line>30</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/MainController.cs" initialLine="30" containingFunctionPresentation="method 'openOrCloseRank'">
-            <startOffsets>
-              <option value="675" />
-            </startOffsets>
-            <endOffsets>
-              <option value="756" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
